@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1: Thông tin cá nhân & Sở thích</title>
+
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        h1 {
+            font-size: 22px;
+            font-style: italic;    
+            padding: 14px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            color: #ffffff;
+            background: linear-gradient(135deg, #2980b9, #8e44ad);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            margin: 22px 0 12px 0;
+            text-align: left;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 6px;
+        }
+
+        ul.hobbies {
+            list-style-type: square; 
+            padding-left: 20px;
+        }
+
+        ul.hobbies li {
+            padding: 8px 12px;
+            margin-bottom: 8px;     
+            border-radius: 6px;
+            font-size: 15px;
+            background-color: #f8f9fa;
+            transition: all 0.25s ease;
+            cursor: pointer;
+        }
+
+        
+        ul.hobbies li:hover {
+            background-color: #e8f4fd;
+            color: #1976d2;
+            transform: translateX(6px); 
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="profile">
+        
+        
+       <img id="avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200" alt="Ảnh đại diện">
+
+
+        <h1>
+           
+            <span style="color: #ffeb3b; text-transform: uppercase;">Vũ Thị Phượng</span>
+        </h1>
+
+       
+        <p><strong>Chuyên ngành:</strong> Thương mại điện tử (E-Commerce)</p>
+        <p><strong>Trường:</strong> Đại học Phenikaa</p>
+        <p><strong>Email:</strong> <a href="mailto:phuong@example.com">phuong@example.com</a></p>
+        <p><strong>Mục tiêu:</strong> Thành thạo thiết kế Web chuẩn giao diện và tối ưu trải nghiệm người dùng.</p>
+
+        
+        <h2>Danh sách sở thích</h2>
+        <ul class="hobbies">
+            <li>Nghiên cứu E-Commerce & Digital Marketing</li>
+            <li>Trau dồi ngoại ngữ </li>
+            <li>Sáng tạo và chỉnh sửa video, hình ảnh</li>
+            <li>Nghe nhạc trên Spotify và thư giãn dạo phố</li>
+        </ul>
+    </div>
+
+</body>
+</html>
